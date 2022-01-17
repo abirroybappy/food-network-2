@@ -1,0 +1,261 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.nav-bar{
+    background-image: linear-gradient(45deg, #FC8E49, #FF6447);
+    display: flex;
+    min-height: 75px;
+    width: 100%;
+    position: fixed;
+    
+}
+    
+.logo{
+width: 50%;
+padding-top: 1%;
+padding-left: 10%;
+}
+
+
+.logo a{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+
+.nav-menu{
+    width: 70%;
+padding-top: 2%;
+margin-right: 5%;
+
+}
+.nav-menu a{
+    color: white;
+    font-weight: 600;
+    margin-left: 5%;
+    text-decoration: none;
+    
+}
+
+h1{
+    font-size: 60px;
+}
+
+.tomato{
+ color: #FDA871;
+}
+
+.top-section{
+    width: 100%;
+    display: flex;
+    padding-top: 10%;
+}
+
+
+.top-section p{
+    font-size: 20px;
+    color: #575757;
+    margin-bottom: 10%;
+    line-height: 32px;
+
+}
+
+.button{
+text-decoration: none;
+background-image: linear-gradient( 180deg,#FD8A49, #FF6848);
+padding: 20px 47px;
+color: white;
+font-size: 18px;
+font-weight: 800;
+border-radius: 45px;
+box-shadow: 10px 10px 40px #f19886 ;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+ 
+    
+}
+
+.full-width {
+    width: 50%;
+
+}
+
+h2{
+    font-size: 58px;
+    font-weight: 700;
+    margin: 0;
+}
+.full-width img{
+    width: 100%;
+}
+
+
+.about-section{
+    display: flex;
+    width: 100%;
+    background-image: url(images/background-1.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    margin-bottom: 5%;
+    
+    
+    
+}
+
+.about-section-img{
+    width: 50%;
+    
+   
+    
+   
+}
+
+.about-section-img img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 11%;
+  
+  position: relative;
+ 
+}
+
+
+.about-section-text{
+    width: 50%;
+    display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+ margin-left: 10%;
+}
+
+
+h3{
+  color: #707070;  
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h4{
+    color: black;  
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.about-p{
+    color: #18191f;
+    line-height: 32px;
+    margin-bottom: 10%;
+    margin-right: 42%;
+
+}
+
+.recipies-section-text{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+}
+
+.food-section{
+    width: 93%;
+    display: flex;
+    padding-left: 5%;
+    padding-bottom: 10%;
+}
+
+.food-img{
+    width: 91% ;
+    padding: 1.5%;
+    border-radius: 25px;
+    box-shadow:  10px 10px 40px rgb(182, 178, 178);
+    margin-right:3% ;
+}
+
+.food-img img{
+    width: 100% ;
+}
+
+.subscribers{
+    width: 87%;
+    display: flex;
+    height:225px ;
+    margin: auto;
+    box-shadow:  10px 10px 40px rgb(182, 178, 178);
+    border-radius: 25px;
+    margin-bottom: 10%;
+}
+.subscribe-count{
+    padding-left: 14%;
+    padding-top: 7%;
+    text-align: center;
+}
+
+
+.contact{
+    width: 50%;
+    height:70% ;
+    margin: auto;
+    box-shadow:  10px 10px 40px rgb(182, 178, 178);
+    border-radius: 25px;
+    margin-bottom: 10%;
+    padding: 2%;
+}
+
+input[type=text], input[type=email], input[type=number], textarea {
+    width: 95%;
+    padding: 15px;
+    margin: 5px 5px 22px 0;
+    background: #F1F1F1;
+    border: none;
+}
+
+
+input[type=text]:focus, input[type=email]:focus, input[type=number]:focus, textarea:focus {
+
+    background-color: #ddd;
+    outline: none;
+}
+
+input[type=submit] {
+    background-color: tomato;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .contact-text{
+      text-align: center;
+  }
+
+  footer{
+
+    margin-top: 5%;
+    width: 100%;
+    background:black;
+    min-height: 200px;
+    
+  }
+
+  footer h4{
+      color: #5b5b5b;
+      text-align: center;
+      padding-top: 4%;
+  }
+
+  footer p{
+      color: #a5a3a3
+      ;
+      text-align: center;
+  }
